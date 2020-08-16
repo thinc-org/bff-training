@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sensitive-data",
+      "handler": "sensitive-data.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sensitive-data/count",
+      "handler": "sensitive-data.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sensitive-data/:id",
+      "handler": "sensitive-data.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sensitive-data",
+      "handler": "sensitive-data.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sensitive-data/:id",
+      "handler": "sensitive-data.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sensitive-data/:id",
+      "handler": "sensitive-data.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
