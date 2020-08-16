@@ -4,7 +4,7 @@ instance_class: F2
 
 env_variables:
   NODE_ENV: 'production'
-  HOST: 127.0.0.1
+  HOST: 0.0.0.0
   PORT: 1337
   MONGO_URI: <YOUR_MONGO_URI>
 
